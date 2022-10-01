@@ -7,7 +7,7 @@ const { Product } = require("./resolvers/Product");
 const { db } = require("./db");
 
 //Add Schema + Resolvers
-//Add mutaion
+//Add mutation 
 
 const server = new ApolloServer({
   typeDefs,
