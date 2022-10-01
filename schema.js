@@ -1,5 +1,5 @@
 const { gql } = require("apollo-server");
-
+//Query + CRUD
 exports.typeDefs = gql`
   type Query {
     hello: [String]
