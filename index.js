@@ -6,6 +6,9 @@ const { Category } = require("./resolvers/Category");
 const { Product } = require("./resolvers/Product");
 const { db } = require("./db");
 
+//Add Schema + Resolvers
+//Add mutaion
+
 const server = new ApolloServer({
   typeDefs,
   resolvers: {
